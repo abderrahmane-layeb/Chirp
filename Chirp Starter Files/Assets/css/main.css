@@ -11,6 +11,29 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --primary-white: #fff;
+    --secondary-white: #fbf8f3;
+    --primary-blue: #1da1f2;
+    --secondary-blue: #d7f5f5;
+}
+
 body {
     font-family: 'Inter', sans-serif;
+}
+
+/* HEADER STYLING */
+.navbar .navbar-brand {
+    color: var(--primary-blue);
+    font-style: italic;
+    font-weight: 800;
+}
+
+.navbar .btn {
+    background-color: var(--primary-blue);
+    border: none;
+}
+
+.navbar .btn:focus {
+    box-shadow: none;
 }
