@@ -25,7 +25,7 @@ body {
     background-color: #000;
 }
 
-/* ========== HEADER ========== */
+/* ==================== HEADER ==================== */
 .navbar .brand,
 footer .brand {
     color: var(--primary-blue);
@@ -62,7 +62,7 @@ footer .brand {
     border: solid 1px var(--primary-blue);
 }
 
-/* ========== MAIN ========== */
+/* ==================== MAIN ==================== */
 .first-section,
 .second-section,
 .third-section {
@@ -128,7 +128,7 @@ footer .brand {
     background-color: var(--secondary-white);
 }
 
-/* ========== FOOTER ========== */
+/* ==================== FOOTER ==================== */
 footer .container .links a:any-link {
     color: #000;
     text-decoration: none;
